@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<link rel="stylesheet" href='calculadoracss.css'>
+<head>
+	<title> Calculadora </title>
+	<h1>Calculadora</h1>
+</head>
+<body>
+		<input id='textocalc' type="text" placeholder="Informe um número">
+			<br><br>
+			<p>
+				<button onclick="operacao(1)">+</button>
+				<button onclick="operacao(2)">-</button>
+				<button onclick="operacao(3)">/</button>
+				<button onclick="operacao(4)">*</button>
+				<button onclick="operacao(5)">%</button>
+				<button onclick="operacao(6)">√¯</button>
+			</p>
+			<p>
+				<button id ='7' onclick="entrada(7)">7</button>
+				<button id ='8' onclick="entrada(8)">8</button>
+				<button id ='9' onclick="entrada(9)">9</button>
+			</p>
+			<p>
+				<button id ='4' onclick="entrada(4)">4</button>
+				<button id ='5' onclick="entrada(5)">5</button>
+				<button id ='6' onclick="entrada(6)">6</button>
+			</p>
+			<p>
+				<button id ='1' onclick="entrada(1)">1</button>
+				<button id ='2' onclick="entrada(2)">2</button>
+				<button id ='3' onclick="entrada(3)">3</button>
+			</p>
+			<p>
+				<button id ='0' onclick="entrada(0)">0</button>
+				<button onclick="limpar()">CE</button>
+				<button onclick="resultado()">=</button>
+			</P>
+
+			<script src ="calculadorajs.js"></script>
+</body>
+</html>
